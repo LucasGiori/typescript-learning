@@ -1,0 +1,14 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev":"ts-node-dev --ignore-watch node_modules --respawn --transpile-only src/index.ts",
+    "build":""
+
+  },
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
+}
