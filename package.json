@@ -4,11 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev":"ts-node-dev --ignore-watch node_modules --respawn --transpile-only src/index.ts",
-    "build":""
-
+    "dev": "ts-node-dev --ignore-watch node_modules --respawn --transpile-only src/index.ts",
+    "build": ""
   },
   "devDependencies": {
     "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
   }
 }
